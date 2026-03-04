@@ -454,14 +454,14 @@ textarea{min-height:100px;resize:vertical;}
     </div>
   </div>
   <ul class="nav-links" id="navLinks">
-    <li><a onclick="showPage('home')" id="nav-home">Home</a></li>
+<li><a href="#" onclick="showPage('home');return false;" id="nav-home">Home</a></li>
     <li><a onclick="showPage('services')" id="nav-services">Services</a></li>
     <li><a onclick="showPage('about')" id="nav-about">About Dr. Thapa</a></li>
     <li><a onclick="showPage('testimonials')" id="nav-testimonials">Student Stories</a></li>
     <li><a onclick="showPage('contact')" id="nav-contact">Contact</a></li>
   </ul>
   <div style="display:flex;align-items:center;gap:1rem;">
-    <button class="nav-cta" onclick="showPage('contact')">Book Free Session</button>
+    <button class="nav-cta" onclick="showPage('contact')">Book Free Assessment</button>
     <div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
   </div>
 </nav>
@@ -473,7 +473,7 @@ textarea{min-height:100px;resize:vertical;}
       <h1 class="fu1">Your Dream<br/>US University<br/>is <em>Within Reach</em></h1>
       <p class="hero-lead fu2">Expert guidance from a US professor with 20+ years of experience &mdash; from application to Ivy League, visa to career. Weber Academy turns your American dream into reality.</p>
       <div class="hero-actions fu3">
-        <button class="btn-p" onclick="showPage('contact')">Book Free 30-Min Session</button>
+        <button class="btn-p" onclick="showPage('contact')">Book Free 30-Min Assessment</button>
         <button class="btn-s" onclick="showPage('services')">Explore Services</button>
       </div>
       <div class="social-row">
@@ -516,7 +516,7 @@ textarea{min-height:100px;resize:vertical;}
       <p class="ssub">From first contact to US arrival &mdash; Dr. Thapa guides you every step of the way.</p>
     </div>
     <div class="steps">
-      <div class="step"><div class="step-num">01</div><div class="step-title">Free Consultation</div><p class="step-desc">Book a free 30-min session with Dr. Thapa to map out your goals and the right path forward.</p></div>
+      <div class="step"><div class="step-num">01</div><div class="step-title">Free Assesment</div><p class="step-desc">Book a free 30-min session with Dr. Thapa to map out your goals and the right path forward.</p></div>
       <div class="step"><div class="step-num">02</div><div class="step-title">Personalized Plan</div><p class="step-desc">Receive a tailored roadmap &mdash; university shortlists, test prep timelines, and application deadlines.</p></div>
       <div class="step"><div class="step-num">03</div><div class="step-title">Apply with Confidence</div><p class="step-desc">Hands-on help with applications, essays, and visa interviews &mdash; guided by Dr. Thapa personally.</p></div>
       <div class="step"><div class="step-num">04</div><div class="step-title">Arrive &amp; Thrive</div><p class="step-desc">Pre-departure workshops prepare you for academics, banking, taxes, and life in the USA.</p></div>
@@ -559,7 +559,7 @@ textarea{min-height:100px;resize:vertical;}
             How much does Weber Academy cost?
             <span class="faq-arrow">&#x25BC;</span>
           </button>
-          <div class="faq-a">The first 30-minute consultation with Dr. Thapa is completely free — no commitment required. Service fees vary depending on what you need. Contact Dr. Thapa directly via WhatsApp (+977 976-457-5538) or email (<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d796b3babea4a4beb8b9a497a0b2b5b2a5b6b4b6b3b2baaef9b8a5b0">[email&#160;protected]</a>) for a personalized quote.</div>
+          <div class="faq-a">The first 30-minute consultation with Dr. Thapa is completely free — no commitment required. Service fees vary depending on what you need. Contact Dr. Thapa directly via WhatsApp (+977 976-457-5538) or email (DrSamratThapa@gmail.com) for a personalized quote.</div>
         </div>
 
         <div class="faq-item">
@@ -586,7 +586,7 @@ textarea{min-height:100px;resize:vertical;}
     <h2>Ready to Begin Your<br/><em>American Journey?</em></h2>
     <p>No pressure. Just clear, honest guidance from someone who has walked this path himself.</p>
     <div class="cta-row">
-      <button class="btn-p" onclick="showPage('contact')">Book Free Session &rarr;</button>
+      <button class="btn-p" onclick="showPage('contact')">Book Free Assesment &rarr;</button>
       <button class="btn-s" onclick="showPage('services')">View All Services</button>
     </div>
     <div class="chips">
@@ -715,7 +715,7 @@ textarea{min-height:100px;resize:vertical;}
           <li>TOEFL preparation</li>
           <li>SAT preparation</li>
           <li>Practice tests included</li>
-          <li>Contact: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2e6d41405a4f4d5a6e594b4c4b5c4f4d4f4a4b435700415c49">[email&#160;protected]</a></li>
+          <li>Contact: contact@weberacademy.org</li>
         </ul>
       </div>
     </div>
@@ -863,7 +863,7 @@ textarea{min-height:100px;resize:vertical;}
   <section class="tcta">
     <h3>Your Story Could Be Next</h3>
     <p>Join hundreds of students who have transformed their futures with guidance from Dr. Thapa.</p>
-    <button class="btn-p" onclick="showPage('contact')">Book Your Free Session &rarr;</button>
+    <button class="btn-p" onclick="showPage('contact')">Book Your Free Assesment &rarr;</button>
   </section>
     <footer>
     <div class="footer-logo"><img src="assets/images/logo.png" alt="Weber Academy" /></div>
@@ -923,10 +923,10 @@ textarea{min-height:100px;resize:vertical;}
             <label>I&rsquo;m interested in</label>
             <select id="fservice">
               <option value="">Select a service...</option>
-              <option>University Admissions Advising</option>
+              <option>Ivy League &amp; Top Schools Advising</option>
+              <option>General Admissions to Affordable Universities</option>
+              <option>Internships in Nepal</option>
               <option>US Visa Interview Preparation</option>
-              <option>Ivy League Advising</option>
-              <option>Internship Program (Nepal)</option>
               <option>Test Preparation (IELTS/TOEFL/SAT)</option>
               <option>Private Tutoring (AP/IB)</option>
               <option>General Enquiry</option>
@@ -966,7 +966,6 @@ textarea{min-height:100px;resize:vertical;}
   </footer>
 </div>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 
 function toggleFaq(btn) {
   var answer = btn.nextElementSibling;
